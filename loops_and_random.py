@@ -59,8 +59,8 @@ for a in range(1, 10):
             for d in range(1, 10):
                 num = str(a) + str(b) +str(c) +str(d)
                 num_reverse = str(d) + str(c) + str(b) + str(a)
-                print(num, num_reverse)
-                if int(num_reverse) <= int(num * 4):
+                #print(num, num_reverse)
+                if int(num_reverse) == int(num) * 4:
                     print("Answer: {} and {}".format(num, num_reverse))
 
 
